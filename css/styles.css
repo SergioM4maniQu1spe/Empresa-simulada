@@ -1,0 +1,26 @@
+
+
+    .navbar-nav {
+        padding: 28px;
+        align-items: center;
+        /* padding-left: 400px; */
+        gap: 16px;
+    }
+@media (min-width: 1400px) {
+    .navbar-collapse {
+        display: flex;
+        flex-basis: 100%;
+        /* width: 50%; */
+        flex-grow: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .navbar-nav {
+        padding: 28px;
+        padding-left: 0px;
+        gap: 16px;
+        width: 600px;
+    }
+}
